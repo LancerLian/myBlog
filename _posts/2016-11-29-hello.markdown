@@ -11,21 +11,20 @@ tags:
 
 > “Hey hey hey~”
 
-#前言
+# 前言
 
 	感谢github，有个地方分享自己的生活学习工作了。这个页面纯吐槽玩票玩玩，谢谢你的驻足~
 
-#这里是正文
+# 这里是正文
 	
 - **中文版**：首先介绍一下我自己吧！小硕一枚，搞计算机视觉，机器学习之类的，还很菜就是了。
 喜欢听音乐，游泳，篮球，跑步，看书，尤克里里。数码控，韦德球迷，kindle痴迷者，书籍音乐电影喜好又广又杂。留言功能上线了，欢迎交流。微博[LancerLian](http://weibo.com/lancer123/),豆瓣也叫[LancerLian](https://www.douban.com/people/lancer123/)。
-
 - **English Version**: Hello! I am currently a post graduate student in Cognitive Science Department, 
 at **Xiamen University** under the supervision of [Prof. Shaozi Li](http://information.xmu.edu.cn/portal/node/106) . I received my Bachelor Degree in Internet of Things in 2014 from **Huazhong University of Science&Technology (HUST)** , Wuhan, China. （英文版为啥这么正式啊我去..）
  
 I am currently doing computer vision research.My research interests include crowd counting, object detection, and machine learning.
 
-#没啥其他话了
+# 没啥其他话了
 
 以后有再补充吧。
 
