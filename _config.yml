@@ -1,5 +1,5 @@
 # Site settings
-title: LancerLian Blog
+title: LancerLian's Blog
 SEOTitle: LancerLian的博客 | LancerLian's Blog
 header-img: img/home-bg.jpg
 email: lancerlian@126.com
@@ -12,7 +12,7 @@ url: "http://lancerlian.github.io"              # your host, for absolute URL
 
 # SNS settings
 RSS: false
-weibo_username:     LancerLian	
+weibo_username:     lancer123	
 zhihu_username:     LancerLian
 github_username:    LancerLian
 #twitter_username:  huxpro
@@ -68,7 +68,7 @@ ba_track_id:  ffc7321b23d456caae591b358c608877
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "我的小博客"
+sidebar-about-description: "干杯- ( ゜- ゜)つロ"
 sidebar-avatar: /img/404-bg.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -82,19 +82,19 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "Hux Blog",
-        href: "http://huangxuan.me"
+        title: "xmu-imt blog",
+        href: "https://xmu-imt.github.io"
     },{
-        title: "Foo",
+        title: "Zhun Zhong",
+        href: "zhunzhong.site"
+    },{
+        title: "Lancer's MicroBlog(Weibo)",
+        href: "http://weibo.com/lancer123"
+    },{
+        title: "广告位招租啊",
         href: "#"
     },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
+        title: "还是广告位",
         href: "#"
     }
 ]
