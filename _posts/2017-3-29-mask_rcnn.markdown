@@ -1,3 +1,14 @@
+---
+layout:     post
+title:      "Mask R-CNN小结"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2017-3-29 12:00:00
+author:     "LancerLian"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - 生活
+---
+
 #Mask R-CNN 小结
 >连盛 2017.3.26
 
