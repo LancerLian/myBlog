@@ -6,7 +6,7 @@ date:       2017-3-29 12:00:00
 author:     "LancerLian"
 header-img: "img/post-bg-2015.jpg"
 tags:
-    - 生活
+    - 学术
 ---
 
 #Mask R-CNN 小结
