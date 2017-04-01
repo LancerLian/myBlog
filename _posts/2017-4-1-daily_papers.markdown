@@ -7,10 +7,11 @@ author:     "LancerLian"
 header-img: "img/post-bg-2015.jpg"
 tags:
     - 学术
+    
     - 论文
 ---
 
-#日常文献 mark down~
+# 日常文献 mark down~
 >连盛 2017.4.1
 
 >[IMT Lab](http://imt.xmu.edu.cn/index.php) in XMU
@@ -18,7 +19,7 @@ tags:
 
 这篇博文会是我对日常读过的比较有意思的文章的一个小结。更多的像导读/知识点小回顾，没有精力写太多技术细节，若对文章感兴趣，我对每篇文章都会附上arxiv链接，欢迎交流讨论。我的新浪微博：[lancerlian](http://weibo.com/lancer123) 其他的联系方式自己挖掘哈！
 
-##文章列表
+## 文章列表
 
 - [ ***【2017.03.23】***  ▒▒ **CoGAN**: Coupled generative adversarial networks， Ming-Yu Liu et al]( #CoGAN ) 
 
@@ -34,7 +35,7 @@ tags:
 
 
 <div id="CoGAN">
-##***【2017.03.23】*** ▒▒  **CoGAN**: Coupled generative adversarial networks
+## ***【2017.03.23】*** ▒▒  **CoGAN**: Coupled generative adversarial networks
 
 这篇文章是NIPS 2016中涌现出来的众多GAN的模型改进和应用文章中的一篇。这篇文章吸引我的地方在于效果不错，而且跨域样本生成也蛮有意义的。文章链接： [arxiv](https://arxiv.org/abs/1606.07536),
 
@@ -44,21 +45,21 @@ P.S. ： 这篇文章的代码开源了。链接如下： [caffe版本](https://
 
 再P.S. ： [Ian Goodfellow](http://www.iangoodfellow.com/)大神（生成对抗网络GAN的提出者,青年才俊）在NIPS 2016做了个关于GAN的Tutorial，相当优秀。链接如下：[tutorial](https://arxiv.org/pdf/1701.00160.pdf), [slides](https://media.nips.cc/Conferences/2016/Slides/6202-Slides.pdf) 值得一看。
 
-###1. 摘要：
+### 1. 摘要：
 
 ![CoGAN_abstract](http://i4.buimg.com/567571/509cd797e188db25.png)
 
-###2. 主要工作：
+### 2. 主要工作：
 
 作者利用两个通过**权值共享**耦合的GAN网络，生成跨域样本。举个例子，输入一堆正常人脸和一堆戴眼镜的人脸，会生成**长得一样**的 **with or without glasses** 的人脸。这个模型可以用在很多不同的地方，具体的自己挖掘咯~不细讲。
 
-###3. 模型设计：
+### 3. 模型设计：
 
 将两个GAN网络通过权值共享耦合起来。其中，生成器共享低层的几层权值，判别器共享高层的几层权值。
 
 ![CoGAN_model](http://i2.muimg.com/567571/7c36106a1911ba8f.png)
 
-###4. 原理分析：
+### 4. 原理分析：
 
 - **优化目标**：和GAN的min-max优化函数类似，只是变成了两个GAN网络耦合后的函数。
 ![](http://i1.piimg.com/567571/c709aff140081dba.png)
@@ -73,14 +74,14 @@ P.S. ： 这篇文章的代码开源了。链接如下： [caffe版本](https://
 
 ![deconv1](https://github.com/vdumoulin/conv_arithmetic/raw/master/gif/no_padding_no_strides_transposed.gif) ![deconv2](https://github.com/vdumoulin/conv_arithmetic/raw/master/gif/padding_strides_odd_transposed.gif)
 
-###5. 一些实验结果
+### 5. 一些实验结果
 
 作者show了一些生成的样本，并与Conditional-GAN进行了比较。实验证明，Conditional-GAN在生成跨域样本时效果不好。两个域之间关联性很弱。
 
 ![](http://i4.buimg.com/567571/8f362b802b38f4e1.png)
 ![](http://i1.piimg.com/567571/911a1cba45c49325.png)
 
-###6. 其他应用场景
+### 6. 其他应用场景
 
 除了MNIST,人脸（CelebA dataset），作者还在RBGD、室内3D数据集等场景进行了实验。不细说。
 
@@ -90,7 +91,7 @@ P.S. ： 这篇文章的代码开源了。链接如下： [caffe版本](https://
 
 
 <div id="SeGAN">
-##***【2017.4.1】*** ▒▒  **SeGAN**: Segmenting and Generating the Invisible
+## ***【2017.4.1】*** ▒▒  **SeGAN**: Segmenting and Generating the Invisible
 
 文章链接： [arxiv](https://arxiv.org/abs/1703.10239)
 
