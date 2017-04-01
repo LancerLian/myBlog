@@ -7,14 +7,14 @@ author:     "LancerLian"
 header-img: "img/post-bg-2015.jpg"
 tags:
     - 学术
-    
-    - 论文
+
 ---
 
 # 日常文献 mark down~
->连盛 2017.4.1
 
->[IMT Lab](http://imt.xmu.edu.cn/index.php) in XMU
+> 连盛 2017.4.1
+
+> [IMT Lab](http://imt.xmu.edu.cn/index.php) in XMU
 
 
 这篇博文会是我对日常读过的比较有意思的文章的一个小结。更多的像导读/知识点小回顾，没有精力写太多技术细节，若对文章感兴趣，我对每篇文章都会附上arxiv链接，欢迎交流讨论。我的新浪微博：[lancerlian](http://weibo.com/lancer123) 其他的联系方式自己挖掘哈！
@@ -26,15 +26,17 @@ tags:
 - [ ***【2017.04.01】***  ▒▒ **SeGAN**: Segmenting and Generating the Invisible, Ehsani et al]( #SeGAN )
 
 
+
 <br /> <br /> <br /> <br /> <br /> <br /> 
 
 
 
+------------------------------------------------------------------------------------------
 
 
 
+<div id="CoGAN"> </div>
 
-<div id="CoGAN">
 ## ***【2017.03.23】*** ▒▒  **CoGAN**: Coupled generative adversarial networks
 
 这篇文章是NIPS 2016中涌现出来的众多GAN的模型改进和应用文章中的一篇。这篇文章吸引我的地方在于效果不错，而且跨域样本生成也蛮有意义的。文章链接： [arxiv](https://arxiv.org/abs/1606.07536),
@@ -87,7 +89,7 @@ P.S. ： 这篇文章的代码开源了。链接如下： [caffe版本](https://
 
 <br /> <br /> <br /> <br /> <br /> <br /> 
 
----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
 
 
 <div id="SeGAN">
