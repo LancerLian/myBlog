@@ -23,11 +23,25 @@ tags:
 ## 文章列表
 
 - [ ***【2017.07.29】***  ▒▒ Fully Convolutional Instance-aware Semantic Segmentation， Yi Li, et al]( #FCIS ) 
+-  [ ***【2017.07.29】***  ▒▒ Fine-tuning Convolutional Neural Networks for Biome﻿dical Image Analysis: Actively and Incrementally， Zongwei Zhou, et al]( #CutAnno ) 
 
 
+## To do list
+
+- [3D生物医学图像分割](http://mp.weixin.qq.com/s/o_idYS-BTuT460t0MzHH9w)
+
+- [特征金字塔网络FPN](http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650729285&idx=3&sn=ae6d28f7423b24bf1f63143af52c79d8&chksm=871b2f3bb06ca62d6e7c6e6db251f754d27b7cd36a9aea7f86fa073f8e710a93924fbb6a4535&scene=21#wechat_redirect)
+
+- [密集连接卷积网络](http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650729318&idx=2&sn=b8f8fe9d1ba92a0c95581fa813791d9e&chksm=871b2f18b06ca60ed684a9d57547d02651d2e6372aa24e77df504ceafbf7a8ba06dbc30f188c&scene=21#wechat_redirect) 
+
+- [基于视频的无监督深度和车辆运动估计](http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650729371&idx=2&sn=5300a69e564fd97726e40484714e4918&chksm=871b2fe5b06ca6f3c2831c0adb1718bfd1c061d7d6383651975bc9e8023233839ba32e258322&scene=21#wechat_redirect) 
+
+- [用于单目图像车辆3D检测的多任务网络](http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650729264&idx=2&sn=2080f22fe20a5df42c72cb4fe7563666&chksm=871b2f4eb06ca6580eab59ff756c2bbec7e8b7c9dfdcd148d6e15f0dedcac268147d30b36b71&scene=21#wechat_redirect)
 
 
 <br /> <br /> <br /> <br /> <br /> <br /> 
+
+
 
 
 
@@ -72,4 +86,15 @@ tags:
 借用这个方法，本文提出了一个物体分割端到端训练的框架，如上图所示，使用 region proposal 网络提供物体分割的 ROI，对每个 ROI 区域，应用上述方法，得到物体分割的结果。
 
 文章中还有一些具体的训练细节，不过这里不再占用篇幅赘述。本文最大的价值在于，第一个提出了在物体分割中可以端到端训练的框架，是继 FCN 之后分割领域的又一个重要进展。
+
+<br /> <br /> <br /> <br />
+
+
+
+<div id="CutAnno"> </div>
+
+##***【2017.07.29】***  ▒▒ Fine-tuning Convolutional Neural Networks for Biome﻿dical Image Analysis: Actively and Incrementally
+[文章链接](http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhou_Fine-Tuning_Convolutional_Neural_CVPR_2017_paper.pdf )
+
+[参考链接](https://mp.weixin.qq.com/s/5E5ZiyjZLHCMIBxk6bZF7Q)
 
