@@ -22,8 +22,12 @@ tags:
 
 ## 文章列表
 
-- [ ***【2017.07.29】***  ▒▒ Fully Convolutional Instance-aware Semantic Segmentation， Yi Li, et al]( #FCIS ) 
+-  [ ***【2017.07.29】***  ▒▒ Fully Convolutional Instance-aware Semantic Segmentation， Yi Li, et al]( #FCIS ) 
+
 -  [ ***【2017.07.29】***  ▒▒ Fine-tuning Convolutional Neural Networks for Biome﻿dical Image Analysis: Actively and Incrementally， Zongwei Zhou, et al]( #CutAnno ) 
+
+-  [ ***【2017.08.07】***  ▒▒ RON: Reverse Connection with Objectness Prior Networks for Object Detection， Tao Kong, et al]( #Ron ) 
+
 
 
 ## To do list
@@ -98,3 +102,39 @@ tags:
 
 [参考链接](https://mp.weixin.qq.com/s/5E5ZiyjZLHCMIBxk6bZF7Q)
 
+<br /> <br /> <br /> <br />
+
+
+
+<div id="Ron"> </div>
+
+##***【2017.07.29】***  ▒▒ RON: Reverse Connection with Objectness Prior Networks for Object Detection， Tao Kong, et al
+
+这篇文章是清华大学孔涛等人的工作。他们尝试将目标检测中的 Regina-based（RCNN系列） 和 Region-free的方法（SSD,YOLO等）的方法结合起来，保留各自的优点，同时解决两个系列方法的缺点，提出了一个有效、高效的通用对象检测框架 Ron。研究设计了反向连接，使网络能够检测多层 CNN 中的对象；提出了 objectness prior 来引导目标对象搜索；利用多任务损失函数优化整个网络，这样网络就能直接预测最终检测结果。在测试中，RON 实现了最先进的对象检测性能。文章被收录于CVPR 2017。
+
+文章相关地址： [文章arxiv链接](https://arxiv.org/abs/1707.01691)，[新智元解析](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652000668&idx=4&sn=1d2605131a3d1b23a1c3a71f3ad821a6&chksm=f121256dc656ac7b53f90da0a77e3571576e96496740150e26d372612d90ad21794bd9b03b3d&scene=0#rd) 。
+
+目前基于深度模型的目标检测框架可以分为两个主要的类别：**region-based**（rcnn系列） 和 **region-free**（ssd，yolo等）。
+
+**基于区域的方法**将对象检测任务分为两个子问题：第一阶段，将一个专用的候选区域生成网络（region proposal generation network）嫁接到深度卷积神经网络（CNN）上；然后，在第二阶段，一个区域性的子网（region-wise subnetwork）被设计来分类和改进这些候选框。使用非常深的 CNN ，Fast R-CNN 工作流程最近在主流对象检测基准上显示出了高精度。
+region proposal 阶段可以拒绝大多数背景样本，因此对象检测的搜索空间大大减少。多阶段训练过程一般是开发用于区域候选生成和后检测的联合优化。在 **Fast R-CNN** 中，区域性子网反复评估成千上万个 region proposal，以给出检测分数。在 Fast R-CNN 工作流程下，Faster R-CNN 与检测网络共享全图像卷积特征，实现几乎零成本的 region proposal。最近，**R-FCN** 试图通过添加敏感位置的分数图，使 Faster R-CNN 的 unshared per RoI 计算可共享。然而，R-FCN 仍然需要区域候选网络产生的 region proposal。为了确保检测精度，所有方法都将图像的大小调整到足够大的尺寸。在训练和推理时间内，将图像投喂给深度网络时，会有资源和时间的消耗。例如，使用 Faster R-CNN 预测（将约 5GB GPU 内存用于 VGG-16 网络）每个图像通常需要 0.2 s。
+
+另一个解决方案是**不基于区域**（region-free）的方法。这些方法将对象检测视为一次性（a single shot）问题，使用全卷积网络（FCN），从图像像素一直处理到边界框坐标。这些检测器的主要优点是效率高。从 YOLO 开始，SSD 试图用多层深度 CNN 处理物体检测问题。使用低分辨率输入，SSD 检测器可以获得最先进的检测结果。然而，这些方法的检测精度仍有改进的余地：（a）没有 region proposal，检测器必须在检测模块就要抑制所有的负候选框。这将增加对检测模块进行训练的难度；（b）YOLO 用最顶端的CNN 层检测物体，没有深入探索不同层的检测能力。 SSD 尝试通过添加前一层的结果来提高检测性能。然而，SSD 仍然受困于 small instance 的问题，主要是由于中间层的信息有限。这两个主要瓶颈影响了方法的检测准确性。
+
+####如何结合两者的优势？
+
+为了实现这一目标，研究者关注两个基本问题：（a）多尺度对象定位。各种尺度的物体可能出现在图像的任何位置，因此应考虑成千上万个具有不同位置/尺度/方位的区域。先前的研究表明，多尺度表征将显著改善各种尺度的物体检测。然而，这些方法总是在网络的一层检测到各种尺度的对象。利用研究者提出的反向连接，对象将在其相应的网络尺度上被检测到，这更容易优化；（b）负空间挖掘（Negative space mining）。对象和非对象样本之间的比例严重不平衡。因此，对象检测器应该具有有效的负挖掘策略。为了减少对象搜索空间，研究者在卷积特征图上创建了 objectness prior，并在训练阶段用检测器联合优化。
+
+因此，研究者提出了 RON（Reverse connection with Objectness prior Networks）对象检测框架，将基于区域和不基于区域的方法的优点联系起来。
+
+![](https://ws1.sinaimg.cn/large/6c0cac2bgy1fiey3kvjnvj20jg0fh7db.jpg)
+上图是 RON 对象检测总览。给定一张输入图像，网络首先计算骨干网络的特征。然后，（a）添加反向连接；（b）生成 objectness prior；（c）在相应的 CNN 尺度和位置上检测物体。
+
+![](https://ws1.sinaimg.cn/large/6c0cac2bgy1fiey5rmx01j20fa07g0vo.jpg)
+上图是生成自特定图像的 objectness prior。在此例中，沙发表现为（a）和（b），棕色的狗表现为（c），斑点狗表现为（d）。在 objectness prior 的引导下，网络生成了检测结果。
+
+![](https://ws1.sinaimg.cn/large/6c0cac2bgy1fiey6t9tyoj2084073mxm.jpg)
+
+![](https://ws1.sinaimg.cn/large/6c0cac2bgy1fiey8w0gmpj20ek06hq40.jpg)
+
+待续
