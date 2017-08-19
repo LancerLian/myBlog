@@ -1,0 +1,17 @@
+---
+layout:     post
+title:      "to Read"
+subtitle:   " "
+date:       2017-8-18 12:00:00
+author:     "LancerLian"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - 学术
+---
+
+#to Read
+>连盛 2017.8.18
+
+- [读懂ResNet、Inception和Xception三大变革性架构](https://mp.weixin.qq.com/s/I94gGXXW_eE5hSHIBOsJFQ)
+
+- [深度学习编译器TVM](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650729915&idx=1&sn=2c75c059166a9f00942d9cc3326afb65&chksm=871b29c5b06ca0d3e16dc3e82397af9c076931185ce55b018a0b001a1ba6bb131148416bc05f&scene=0#rd)
