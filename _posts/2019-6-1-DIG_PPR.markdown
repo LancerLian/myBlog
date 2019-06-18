@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "to Read"
+title:      "连盛的论文阅读笔记小列表"
 subtitle:   " "
 date:       2019-6-1 12:00:00
 author:     "LancerLian"
