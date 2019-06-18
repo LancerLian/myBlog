@@ -1,0 +1,17 @@
+---
+layout:     post
+title:      "to Read"
+subtitle:   " "
+date:       2019-6-1 12:00:00
+author:     "LancerLian"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - 学术
+---
+
+#Paper Reading
+>连盛 2019.6.1
+
+- [【No.1】ECCV2018 Pixel2Mesh: Generating 3D Mesh Models from Single RGB Images](http://lancerlian.win/PDFs/PPR_1_ECCV18_pixel2mesh.pdf)
+
+- [【No.2】MICCAI2019 `Project & Excite' Modules for Segmentation of Volumetric Medical Scans](http://lancerlian.win/PDFs/PPR_2_MICCAI19_project_excite.pdf)
