@@ -15,3 +15,5 @@ tags:
 - [【No.1】ECCV2018 Pixel2Mesh: Generating 3D Mesh Models from Single RGB Images](http://lancerlian.win/PDFs/PPR_1_ECCV18_pixel2mesh.pdf)
 
 - [【No.2】MICCAI2019 `Project & Excite' Modules for Segmentation of Volumetric Medical Scans](http://lancerlian.win/PDFs/PPR_2_MICCAI19_project_excite.pdf)
+
+- [【No.3】arxiv preprint2019 nnU-Net: Breaking the Spell on Successful Medical Image Segmentation](http://lancerlian.win/PDFs/PPR_3_nnU-Net.pdf)
