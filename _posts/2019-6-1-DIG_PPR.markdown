@@ -17,3 +17,12 @@ tags:
 - [【No.2】MICCAI2019 `Project & Excite' Modules for Segmentation of Volumetric Medical Scans](http://lancerlian.win/PDFs/PPR_2_MICCAI19_project_excite.pdf)
 
 - [【No.3】arxiv preprint2019 nnU-Net: Breaking the Spell on Successful Medical Image Segmentation](http://lancerlian.win/PDFs/PPR_3_nnU-Net.pdf)
+
+- [【No.4】MICCAI2019 Multi Scale Curriculum CNN for Context-Aware Breast MRI Malignancy Classification](http://lancerlian.win/PDFs/PPR_4_miccai19_curriculumCNN.pdf)
+
+- [【No.5】arxiv preprint2019 Improving 3D U-Net for Brain Tumor Segmentation by Utilizing Lesion Prior](http://lancerlian.win/PDFs/PPR_5_arxiv_lesion_prior.pdf)
+
+- [【No.6】ENDOSCOPIC2019 A deep neural network improves endoscopic detection of early
+gastric cancer without blind spots](http://lancerlian.win/PDFs/PPR_6_endoscopic19_egc.pdf)
+
+- [【No.】](http://lancerlian.win/PDFs/)
