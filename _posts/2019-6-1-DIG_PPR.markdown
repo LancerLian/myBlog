@@ -25,7 +25,7 @@ tags:
 - [【No.6】ENDOSCOPIC-2019 A deep neural network improves endoscopic detection of early
 gastric cancer without blind spots](http://lancerlian.win/PDFs/PPR_6_endoscopic19_egc.pdf)
 
-- [【No.7】MICCAI-2019 Cardiac MRI Segmentation with Strong Anatomical Guarantees](http://lancerlian.win/PDFs/PPR_7-miccai19_anatomical_guarantees)
+- [【No.7】MICCAI-2019 Cardiac MRI Segmentation with Strong Anatomical Guarantees](http://lancerlian.win/PDFs/PPR_7-miccai19_anatomical_guarantees.pdf)
 
 - [【No.】](http://lancerlian.win/PDFs/)
 
