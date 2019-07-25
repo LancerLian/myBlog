@@ -27,6 +27,10 @@ gastric cancer without blind spots](http://lancerlian.win/PDFs/PPR_6_endoscopic1
 
 - [【No.7】MICCAI-2019 Cardiac MRI Segmentation with Strong Anatomical Guarantees](http://lancerlian.win/PDFs/PPR_7-miccai19_anatomical_guarantees.pdf)
 
+- [【No.8】MIDL-2018 + MIA-2019 Evaluating Reinforcement Learning Agents for
+Anatomical Landmark Detection](http://lancerlian.win/PDFs/PPR_8-MIA19-DQN_landmark.pdf)
+
+
 - [【No.】](http://lancerlian.win/PDFs/)
 
 
