@@ -12,25 +12,25 @@ tags:
 #Paper Reading
 >连盛 2019.6.1
 
-- [【No.1】ECCV-2018 Pixel2Mesh: Generating 3D Mesh Models from Single RGB Images](http://lancerlian.win/PDFs/PPR_1_ECCV18_pixel2mesh.pdf)
+- [【No.1】ECCV-2018, Pixel2Mesh: Generating 3D Mesh Models from Single RGB Images](http://lancerlian.win/PDFs/PPR_1_ECCV18_pixel2mesh.pdf)
 
-- [【No.2】MICCAI-2019 `Project & Excite' Modules for Segmentation of Volumetric Medical Scans](http://lancerlian.win/PDFs/PPR_2_MICCAI19_project_excite.pdf)
+- [【No.2】MICCAI-2019, `Project & Excite' Modules for Segmentation of Volumetric Medical Scans](http://lancerlian.win/PDFs/PPR_2_MICCAI19_project_excite.pdf)
 
-- [【No.3】arxiv preprint-2019 nnU-Net: Breaking the Spell on Successful Medical Image Segmentation](http://lancerlian.win/PDFs/PPR_3_nnU-Net.pdf)
+- [【No.3】arxiv preprint-2019, nnU-Net: Breaking the Spell on Successful Medical Image Segmentation](http://lancerlian.win/PDFs/PPR_3_nnU-Net.pdf)
 
-- [【No.4】MICCAI-2019 Multi Scale Curriculum CNN for Context-Aware Breast MRI Malignancy Classification](http://lancerlian.win/PDFs/PPR_4_miccai19_curriculumCNN.pdf)
+- [【No.4】MICCAI-2019, Multi Scale Curriculum CNN for Context-Aware Breast MRI Malignancy Classification](http://lancerlian.win/PDFs/PPR_4_miccai19_curriculumCNN.pdf)
 
-- [【No.5】arxiv preprint-2019 Improving 3D U-Net for Brain Tumor Segmentation by Utilizing Lesion Prior](http://lancerlian.win/PDFs/PPR_5_arxiv_lesion_prior.pdf)
+- [【No.5】arxiv preprint-2019, Improving 3D U-Net for Brain Tumor Segmentation by Utilizing Lesion Prior](http://lancerlian.win/PDFs/PPR_5_arxiv_lesion_prior.pdf)
 
-- [【No.6】ENDOSCOPIC-2019 A deep neural network improves endoscopic detection of early
+- [【No.6】ENDOSCOPIC-2019, A deep neural network improves endoscopic detection of early
 gastric cancer without blind spots](http://lancerlian.win/PDFs/PPR_6_endoscopic19_egc.pdf)
 
-- [【No.7】MICCAI-2019 Cardiac MRI Segmentation with Strong Anatomical Guarantees](http://lancerlian.win/PDFs/PPR_7-miccai19_anatomical_guarantees.pdf)
+- [【No.7】MICCAI-2019, Cardiac MRI Segmentation with Strong Anatomical Guarantees](http://lancerlian.win/PDFs/PPR_7-miccai19_anatomical_guarantees.pdf)
 
-- [【No.8】MIDL-2018 + MIA-2019 Evaluating Reinforcement Learning Agents for
+- [【No.8】MIDL-2018 + MIA-2019, Evaluating Reinforcement Learning Agents for
 Anatomical Landmark Detection](http://lancerlian.win/PDFs/PPR_8-MIA19-DQN_landmark.pdf)
 
-
+- [【No.9】AAAI-2019, A New Ensemble Learning Framework for 3D BiomedicalImage Segmentation](http://lancerlian.win/PDFs/PPR_9-AAAI19_3D_meta_segment.pdf)
 - [【No.】](http://lancerlian.win/PDFs/)
 
 
