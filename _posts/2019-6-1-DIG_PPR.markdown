@@ -33,6 +33,7 @@ Anatomical Landmark Detection](http://lancerlian.win/PDFs/PPR_8-MIA19-DQN_landma
 - [【No.9】AAAI-2019, A New Ensemble Learning Framework for 3D BiomedicalImage Segmentation](http://lancerlian.win/PDFs/PPR_9-AAAI19_3D_meta_segment.pdf)
 - [【No.10】A journey to MICCAI KiTS19 challenge (Introduction of our proposed solution and top5 methods)](http://lancerlian.win/PDFs/PPR_10-Journey_to_KiTS19.pdf)
 
+- [【No.11】MIDL-2019 Boundary loss for highly unbalanced segmentation](http://lancerlian.win/PDFs/PPR_11-MIDL19_boundary_loss.pdf)
 
 - [【No.】](http://lancerlian.win/PDFs/)
 
