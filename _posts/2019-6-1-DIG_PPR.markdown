@@ -37,6 +37,8 @@ Anatomical Landmark Detection](http://lancerlian.win/PDFs/PPR_8-MIA19-DQN_landma
 
 - [【No.12】MLMI-2019 Shape-Aware Complementary-Task Learning for Multi-Organ Segmentation](http://lancerlian.win/PDFs/PPR_12-MLMI19_shape_aware.pdf)
 
+- [【No.13】]CVPR-2019, AutoAugment: Learning Augmentation Strategies from Data(http://lancerlian.win/PDFs/PPR_13-CVPR19-autoaugment.pdf)
+
 - [【No.】](http://lancerlian.win/PDFs/)
 
 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/3.js?i=5qmwfigqqsu&amp;b=3&amp;s=0&amp;m=2&amp;cl=ffffff&amp;co=010020&amp;cd=aa0000&amp;v0=60&amp;v1=60&amp;r=1" async="async"></script>
