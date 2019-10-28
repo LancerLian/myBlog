@@ -42,7 +42,10 @@ Anatomical Landmark Detection](http://lancerlian.win/PDFs/PPR_8-MIA19-DQN_landma
 - [【No.14】MICCAI-2017, Deep Reinforcement Learning for Active Breast Lesion Detection from DCE-MRI ](http://lancerlian.win/PDFs/PPR_14-miccai17_DRL4breastlesion.pdf)
 
 - [【No.15】TPAMI-2017, Multi-Scale Deep Reinforcement Learning for Real-Time 3D-Landmark Detection in CT Scans](http://lancerlian.win/PDFs/PPR_15-pami17_DRL43dlandmark.pdf)
+
 - [【No.16】AAAI-2016, Deep Reinforcement Learning with Double Q-learning](http://lancerlian.win/PDFs/PPR_16-AAAI16_DDQN.pdf)
+
+- [【No.17】TMI-2019, Deep Q Learning Driven CT Pancreas Segmentation with Geometry-Aware U-Net](http://lancerlian.win/PDFs/PPR_17-TMI-DQN_pancreas.pdf)
 
 - [【No.】](http://lancerlian.win/PDFs/)
 
