@@ -47,6 +47,8 @@ Anatomical Landmark Detection](http://lancerlian.win/PDFs/PPR_8-MIA19-DQN_landma
 
 - [【No.17】TMI-2019, Deep Q Learning Driven CT Pancreas Segmentation with Geometry-Aware U-Net](http://lancerlian.win/PDFs/PPR_17-TMI-DQN_pancreas.pdf)
 
+- [【No.18】AAAI-2018, Rainbow: Combining Improvements in Deep Reinforcement Learning](http://lancerlian.win/PDFs/PPR_18-AAAI18_Rainbow.pdf)
+
 - [【No.】](http://lancerlian.win/PDFs/)
 
 
