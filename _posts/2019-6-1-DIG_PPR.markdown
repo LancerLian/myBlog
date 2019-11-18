@@ -51,6 +51,8 @@ Anatomical Landmark Detection](http://lancerlian.win/PDFs/PPR_8-MIA19-DQN_landma
 
 - [【No.19】CVPR-2019, Context-Reinforced Semantic Segmentation](http://lancerlian.win/PDFs/PPR_19_cvpr19_context_reinforcement.pdf)
 
+- [【No.20】MICCAI-2019, Multiple Landmark Detection Using Multi-agent Reinforcement Learning](http://lancerlian.win/PDFs/PPR_20_miccai19_multi-RL-landmark.pdf)
+
 - [【No.】](http://lancerlian.win/PDFs/)
 
 
